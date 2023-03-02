@@ -1,0 +1,10 @@
+make[2]: *** [CMakeFiles/gazebo_ros_create_docking_status.dir/build.make:63: CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/gazebo_ros_create_cliff_sensor.dir/build.make:63: CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/gazebo_ros_create_bumper.dir/build.make:63: CMakeFiles/gazebo_ros_create_bumper.dir/src/gazebo_ros_bumper.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/docking_manager.dir/build.make:63: CMakeFiles/docking_manager.dir/src/docking_manager.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/gazebo_ros_create_wheel_drop.dir/build.make:63: CMakeFiles/gazebo_ros_create_wheel_drop.dir/src/gazebo_ros_wheel_drop.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/gazebo_ros_create_imu.dir/build.make:63: CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/build.make:63: CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/gazebo_ros_create_optical_mouse.dir/build.make:63: CMakeFiles/gazebo_ros_create_optical_mouse.dir/src/gazebo_ros_optical_mouse.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:258: CMakeFiles/gazebo_ros_create_cliff_sensor.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

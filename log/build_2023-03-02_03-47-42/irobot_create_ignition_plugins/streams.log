@@ -1,0 +1,25 @@
+[0.039s] Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_ignition_plugins -- -j12 -l12
+[0.302s] [ 16%] [34m[1mAutomatic MOC for target Create3Hmi[0m
+[0.322s] [ 16%] Built target Create3Hmi_autogen
+[0.367s] [100%] Built target Create3Hmi
+[0.416s] Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_ignition_plugins -- -j12 -l12
+[0.491s] Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_ignition_plugins
+[0.504s] -- Install configuration: ""
+[0.504s] -- Execute custom install script
+[0.505s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/lib/libCreate3Hmi.so
+[0.505s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_plugins
+[0.505s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_plugins
+[0.505s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.sh
+[0.506s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.dsv
+[0.506s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.sh
+[0.509s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.dsv
+[0.510s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.bash
+[0.510s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.sh
+[0.510s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.zsh
+[0.511s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.dsv
+[0.511s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.dsv
+[0.521s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/packages/irobot_create_ignition_plugins
+[0.522s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig.cmake
+[0.522s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig-version.cmake
+[0.523s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.xml
+[0.574s] Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_ignition_plugins

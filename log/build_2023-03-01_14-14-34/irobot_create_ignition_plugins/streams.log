@@ -1,0 +1,35 @@
+[0.092s] Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_plugins
+[1.843s] -- The C compiler identification is GNU 9.4.0
+[3.109s] -- The CXX compiler identification is GNU 9.4.0
+[3.133s] -- Check for working C compiler: /usr/bin/cc
+[3.282s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.284s] -- Detecting C compiler ABI info
+[3.401s] -- Detecting C compiler ABI info - done
+[3.424s] -- Detecting C compile features
+[3.429s] -- Detecting C compile features - done
+[3.440s] -- Check for working CXX compiler: /usr/bin/c++
+[3.515s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.516s] -- Detecting CXX compiler ABI info
+[3.589s] -- Detecting CXX compiler ABI info - done
+[3.607s] -- Detecting CXX compile features
+[3.607s] -- Detecting CXX compile features - done
+[3.657s] CMake Error at CMakeLists.txt:9 (find_package):
+[3.658s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.658s]   has asked CMake to find a package configuration file provided by
+[3.660s]   "ament_cmake", but CMake did not find one.
+[3.660s] 
+[3.661s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.662s]   any of the following names:
+[3.663s] 
+[3.663s]     ament_cmakeConfig.cmake
+[3.664s]     ament_cmake-config.cmake
+[3.664s] 
+[3.664s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.664s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.665s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.665s]   has been installed.
+[3.665s] 
+[3.665s] 
+[3.675s] -- Configuring incomplete, errors occurred!
+[3.675s] See also "/home/paul/create3_ws/build/irobot_create_ignition_plugins/CMakeFiles/CMakeOutput.log".
+[3.678s] Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins' returned '1': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_plugins

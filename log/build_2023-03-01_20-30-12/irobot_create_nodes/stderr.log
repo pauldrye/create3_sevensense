@@ -1,0 +1,7 @@
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes/src/motion_control_node.cpp:[m[K In member function ‘[01m[Kvoid irobot_create_nodes::MotionControlNode::control_robot()[m[K’:
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes/src/motion_control_node.cpp:234:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+  234 |   [01;31m[KROS_INFO[m[K("Hello World");
+      |   [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motion_control_lib.dir/build.make:63: CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:459: CMakeFiles/motion_control_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

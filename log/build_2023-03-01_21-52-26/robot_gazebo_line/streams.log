@@ -1,0 +1,103 @@
+[0.350s] Invoking command in '/home/paul/create3_ws/build/robot_gazebo_line': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/robot_gazebo_line -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/robot_gazebo_line
+[8.745s] -- The C compiler identification is GNU 9.4.0
+[13.947s] -- The CXX compiler identification is GNU 9.4.0
+[14.128s] -- Check for working C compiler: /usr/bin/cc
+[14.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[14.277s] -- Detecting C compiler ABI info
+[14.628s] -- Detecting C compiler ABI info - done
+[14.639s] -- Detecting C compile features
+[14.647s] -- Detecting C compile features - done
+[14.650s] -- Check for working CXX compiler: /usr/bin/c++
+[14.726s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[14.726s] -- Detecting CXX compiler ABI info
+[14.800s] -- Detecting CXX compiler ABI info - done
+[14.810s] -- Detecting CXX compile features
+[14.811s] -- Detecting CXX compile features - done
+[14.999s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[15.001s] -- Checking for module 'bullet>=2.82'
+[15.360s] --   Found bullet, version 2.88
+[16.446s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[16.607s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[16.712s] -- Found assimp: /usr/include (found version "5.0.0") 
+[17.584s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[18.653s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[18.674s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[18.715s] -- Looking for ignition-math6 -- found version 6.13.0
+[18.721s] -- Searching for dependencies of ignition-math6
+[18.723s] -- Looking for OGRE...
+[18.724s] -- OGRE_PREFIX_WATCH changed.
+[18.729s] -- Checking for module 'OGRE'
+[18.747s] --   Found OGRE, version 1.9.0
+[18.793s] -- Found Ogre Ghadamon (1.9.0)
+[18.802s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[18.811s] -- Looking for OGRE_Paging...
+[18.817s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[18.818s] -- Looking for OGRE_Terrain...
+[18.824s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[18.824s] -- Looking for OGRE_Property...
+[18.830s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[18.831s] -- Looking for OGRE_RTShaderSystem...
+[18.837s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[18.837s] -- Looking for OGRE_Volume...
+[18.843s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[18.844s] -- Looking for OGRE_Overlay...
+[18.850s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[18.993s] -- Looking for ignition-math6 -- found version 6.13.0
+[18.996s] -- Looking for ignition-transport8 -- found version 8.4.0
+[18.996s] -- Searching for dependencies of ignition-transport8
+[19.015s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[19.028s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[19.032s] -- Checking for module 'libzmq >= 4'
+[19.049s] --   Found libzmq , version 4.3.2
+[19.097s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[19.102s] -- Checking for module 'uuid'
+[19.119s] --   Found uuid, version 2.34.0
+[19.162s] -- Found UUID: TRUE  
+[19.165s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[19.165s] -- Searching for dependencies of ignition-msgs5
+[19.184s] -- Looking for ignition-math6 -- found version 6.13.0
+[19.189s] -- Checking for module 'tinyxml2'
+[19.206s] --   Found tinyxml2, version 6.2.0
+[19.250s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[19.407s] -- Looking for ignition-common3 -- found version 3.15.1
+[19.409s] -- Searching for dependencies of ignition-common3
+[19.411s] -- Looking for dlfcn.h - found
+[19.414s] -- Looking for libdl - found
+[19.420s] -- Found DL: TRUE  
+[19.482s] -- Searching for <ignition-common3> component [graphics]
+[19.738s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[19.740s] -- Searching for dependencies of ignition-common3-graphics
+[19.741s] -- Looking for ignition-math6 -- found version 6.13.0
+[19.882s] -- Looking for ignition-fuel_tools4 -- found version 4.8.1
+[19.884s] -- Searching for dependencies of ignition-fuel_tools4
+[20.122s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[20.657s] -- Checking for module 'jsoncpp'
+[20.681s] --   Found jsoncpp, version 1.7.4
+[20.734s] -- Found JSONCPP: TRUE  
+[20.953s] -- Checking for module 'libzip'
+[21.059s] --   Found libzip, version 1.5.1
+[21.109s] -- Found ZIP: TRUE  
+[21.110s] -- Looking for ignition-common3 -- found version 3.15.1
+[21.110s] -- Looking for ignition-math6 -- found version 6.13.0
+[21.110s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[21.185s] CMake Error at CMakeLists.txt:6 (find_package):
+[21.185s]   By not providing "Findroslib.cmake" in CMAKE_MODULE_PATH this project has
+[21.185s]   asked CMake to find a package configuration file provided by "roslib", but
+[21.185s]   CMake did not find one.
+[21.185s] 
+[21.185s]   Could not find a package configuration file provided by "roslib" with any
+[21.185s]   of the following names:
+[21.185s] 
+[21.185s]     roslibConfig.cmake
+[21.185s]     roslib-config.cmake
+[21.186s] 
+[21.186s]   Add the installation prefix of "roslib" to CMAKE_PREFIX_PATH or set
+[21.186s]   "roslib_DIR" to a directory containing one of the above files.  If "roslib"
+[21.186s]   provides a separate development package or SDK, be sure it has been
+[21.186s]   installed.
+[21.186s] 
+[21.186s] 
+[21.186s] -- Configuring incomplete, errors occurred!
+[21.186s] See also "/home/paul/create3_ws/build/robot_gazebo_line/CMakeFiles/CMakeOutput.log".
+[21.186s] See also "/home/paul/create3_ws/build/robot_gazebo_line/CMakeFiles/CMakeError.log".
+[21.196s] Invoked command in '/home/paul/create3_ws/build/robot_gazebo_line' returned '1': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/robot_gazebo_line -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/robot_gazebo_line

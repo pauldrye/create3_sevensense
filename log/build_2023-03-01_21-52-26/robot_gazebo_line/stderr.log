@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:6 (find_package):
+  By not providing "Findroslib.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "roslib", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "roslib" with any
+  of the following names:
+
+    roslibConfig.cmake
+    roslib-config.cmake
+
+  Add the installation prefix of "roslib" to CMAKE_PREFIX_PATH or set
+  "roslib_DIR" to a directory containing one of the above files.  If "roslib"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

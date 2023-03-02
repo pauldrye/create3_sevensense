@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>svg_drive_goals</name>
+  <version>0.0.0</version>
+  <description>Package for converting SVG paths to drive goals messages for a robot</description>
+  <maintainer email="drye.paul@gmail.com">paul</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>irobot_create_msgs</build_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>irobot_create_msgs</exec_depend>
+
+</package>

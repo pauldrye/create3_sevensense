@@ -1,0 +1,40 @@
+[1.773s] Invoking command in '/home/paul/create3_ws/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_description -- -j12 -l12
+[2.429s] Invoked command in '/home/paul/create3_ws/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_description -- -j12 -l12
+[2.468s] Invoking command in '/home/paul/create3_ws/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_description
+[2.478s] -- Install configuration: ""
+[2.478s] -- Execute custom install script
+[2.479s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/body_visual.dae
+[2.479s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/bumper_collision.dae
+[2.480s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/bumper_visual.dae
+[2.480s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/dock/visual.dae
+[2.481s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/bumper.urdf.xacro
+[2.481s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/button.urdf.xacro
+[2.481s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/caster.urdf.xacro
+[2.481s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/common_properties.urdf.xacro
+[2.482s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/create3.urdf.xacro
+[2.482s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/dock/ir_emitter.urdf.xacro
+[2.482s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/dock/standard_dock.urdf.xacro
+[2.482s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/cliff_sensor.urdf.xacro
+[2.483s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/imu.urdf.xacro
+[2.483s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_intensity.urdf.xacro
+[2.483s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_opcode_receivers.urdf.xacro
+[2.484s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/optical_mouse.urdf.xacro
+[2.484s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel.urdf.xacro
+[2.484s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel_drop.urdf.xacro
+[2.484s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel_with_wheeldrop.urdf.xacro
+[2.485s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/ament_index/resource_index/package_run_dependencies/irobot_create_description
+[2.486s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/ament_index/resource_index/parent_prefix_path/irobot_create_description
+[2.487s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.sh
+[2.489s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.dsv
+[2.489s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/path.sh
+[2.490s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/path.dsv
+[2.490s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.bash
+[2.490s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.sh
+[2.490s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.zsh
+[2.490s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.dsv
+[2.490s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.dsv
+[2.498s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/ament_index/resource_index/packages/irobot_create_description
+[2.498s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig.cmake
+[2.498s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig-version.cmake
+[2.498s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.xml
+[6.159s] Invoked command in '/home/paul/create3_ws/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_description

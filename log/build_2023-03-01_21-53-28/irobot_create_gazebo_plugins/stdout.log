@@ -1,0 +1,13 @@
+[  9%] Built target gazebo_ros_create_helpers
+[35m[1mScanning dependencies of target create_line_plugin[0m
+[ 18%] Built target gazebo_ros_create_ir_intensity_sensor
+[ 45%] Built target gazebo_ros_create_optical_mouse
+[ 40%] [32m[1mLinking CXX shared library libgazebo_ros_create_wheel_drop.so[0m
+[ 45%] Built target gazebo_ros_create_bumper
+[ 54%] Built target gazebo_ros_create_docking_status
+[ 59%] Built target gazebo_ros_create_cliff_sensor
+[ 68%] Built target docking_manager
+[ 77%] Built target gazebo_ros_create_imu
+[ 86%] Built target gazebo_ros_create_ir_opcode
+[ 90%] [32mBuilding CXX object CMakeFiles/create_line_plugin.dir/src/line_plugin.cpp.o[0m
+[ 95%] Built target gazebo_ros_create_wheel_drop

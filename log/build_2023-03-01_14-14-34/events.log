@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.000510] (irobot_create_control) JobQueued: {'identifier': 'irobot_create_control', 'dependencies': OrderedDict()}
+[0.000758] (irobot_create_description) JobQueued: {'identifier': 'irobot_create_description', 'dependencies': OrderedDict()}
+[0.000784] (irobot_create_ignition_plugins) JobQueued: {'identifier': 'irobot_create_ignition_plugins', 'dependencies': OrderedDict()}
+[0.000802] (irobot_create_toolbox) JobQueued: {'identifier': 'irobot_create_toolbox', 'dependencies': OrderedDict()}
+[0.000926] (irobot_create_common_bringup) JobQueued: {'identifier': 'irobot_create_common_bringup', 'dependencies': OrderedDict([('irobot_create_control', '/home/paul/create3_ws/install/irobot_create_control'), ('irobot_create_description', '/home/paul/create3_ws/install/irobot_create_description')])}
+[0.000953] (irobot_create_gazebo_plugins) JobQueued: {'identifier': 'irobot_create_gazebo_plugins', 'dependencies': OrderedDict([('irobot_create_toolbox', '/home/paul/create3_ws/install/irobot_create_toolbox')])}
+[0.001121] (irobot_create_ignition_toolbox) JobQueued: {'identifier': 'irobot_create_ignition_toolbox', 'dependencies': OrderedDict([('irobot_create_toolbox', '/home/paul/create3_ws/install/irobot_create_toolbox')])}
+[0.001140] (irobot_create_nodes) JobQueued: {'identifier': 'irobot_create_nodes', 'dependencies': OrderedDict([('irobot_create_toolbox', '/home/paul/create3_ws/install/irobot_create_toolbox')])}
+[0.001241] (irobot_create_gazebo_bringup) JobQueued: {'identifier': 'irobot_create_gazebo_bringup', 'dependencies': OrderedDict([('irobot_create_control', '/home/paul/create3_ws/install/irobot_create_control'), ('irobot_create_description', '/home/paul/create3_ws/install/irobot_create_description'), ('irobot_create_toolbox', '/home/paul/create3_ws/install/irobot_create_toolbox'), ('irobot_create_common_bringup', '/home/paul/create3_ws/install/irobot_create_common_bringup'), ('irobot_create_gazebo_plugins', '/home/paul/create3_ws/install/irobot_create_gazebo_plugins')])}
+[0.001280] (irobot_create_ignition_bringup) JobQueued: {'identifier': 'irobot_create_ignition_bringup', 'dependencies': OrderedDict([('irobot_create_control', '/home/paul/create3_ws/install/irobot_create_control'), ('irobot_create_description', '/home/paul/create3_ws/install/irobot_create_description'), ('irobot_create_ignition_plugins', '/home/paul/create3_ws/install/irobot_create_ignition_plugins'), ('irobot_create_toolbox', '/home/paul/create3_ws/install/irobot_create_toolbox'), ('irobot_create_common_bringup', '/home/paul/create3_ws/install/irobot_create_common_bringup'), ('irobot_create_ignition_toolbox', '/home/paul/create3_ws/install/irobot_create_ignition_toolbox')])}
+[0.001305] (irobot_create_gazebo_sim) JobQueued: {'identifier': 'irobot_create_gazebo_sim', 'dependencies': OrderedDict([('irobot_create_control', '/home/paul/create3_ws/install/irobot_create_control'), ('irobot_create_description', '/home/paul/create3_ws/install/irobot_create_description'), ('irobot_create_toolbox', '/home/paul/create3_ws/install/irobot_create_toolbox'), ('irobot_create_common_bringup', '/home/paul/create3_ws/install/irobot_create_common_bringup'), ('irobot_create_gazebo_plugins', '/home/paul/create3_ws/install/irobot_create_gazebo_plugins'), ('irobot_create_gazebo_bringup', '/home/paul/create3_ws/install/irobot_create_gazebo_bringup')])}
+[0.001326] (irobot_create_ignition_sim) JobQueued: {'identifier': 'irobot_create_ignition_sim', 'dependencies': OrderedDict([('irobot_create_control', '/home/paul/create3_ws/install/irobot_create_control'), ('irobot_create_description', '/home/paul/create3_ws/install/irobot_create_description'), ('irobot_create_ignition_plugins', '/home/paul/create3_ws/install/irobot_create_ignition_plugins'), ('irobot_create_toolbox', '/home/paul/create3_ws/install/irobot_create_toolbox'), ('irobot_create_common_bringup', '/home/paul/create3_ws/install/irobot_create_common_bringup'), ('irobot_create_ignition_toolbox', '/home/paul/create3_ws/install/irobot_create_ignition_toolbox'), ('irobot_create_ignition_bringup', '/home/paul/create3_ws/install/irobot_create_ignition_bringup')])}
+[0.001357] (irobot_create_toolbox) JobStarted: {'identifier': 'irobot_create_toolbox'}
+[0.024650] (irobot_create_control) JobStarted: {'identifier': 'irobot_create_control'}
+[0.029483] (irobot_create_description) JobStarted: {'identifier': 'irobot_create_description'}
+[0.031784] (irobot_create_ignition_plugins) JobStarted: {'identifier': 'irobot_create_ignition_plugins'}
+[0.038581] (irobot_create_toolbox) JobProgress: {'identifier': 'irobot_create_toolbox', 'progress': 'cmake'}
+[0.039056] (irobot_create_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_toolbox'], 'cwd': '/home/paul/create3_ws/build/irobot_create_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paul'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1554'), ('XDG_SESSION_TYPE', 'x11'), ('IGNITION_VERSION', 'edifice'), ('SHLVL', '1'), ('HOME', '/home/paul'), ('OLDPWD', '/home/paul/create3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1201'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2076'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'paul'), ('JOURNAL_STREAM', '8:41693'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Paul-Asus:@/tmp/.ICE-unix/1589,unix/Paul-Asus:/tmp/.ICE-unix/1589'), ('INVOCATION_ID', 'f35004b00cce41b1a572567adedd092b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20c87503-0198-4ba7-bf6c-e4500c132f1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paul/create3_ws/build/irobot_create_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.100998] (-) TimerEvent: {}
+[0.101973] (irobot_create_control) JobProgress: {'identifier': 'irobot_create_control', 'progress': 'cmake'}
+[0.104204] (irobot_create_control) Command: {'cmd': ['/usr/bin/cmake', '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_control'], 'cwd': '/home/paul/create3_ws/build/irobot_create_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paul'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1554'), ('XDG_SESSION_TYPE', 'x11'), ('IGNITION_VERSION', 'edifice'), ('SHLVL', '1'), ('HOME', '/home/paul'), ('OLDPWD', '/home/paul/create3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1201'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2076'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'paul'), ('JOURNAL_STREAM', '8:41693'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Paul-Asus:@/tmp/.ICE-unix/1589,unix/Paul-Asus:/tmp/.ICE-unix/1589'), ('INVOCATION_ID', 'f35004b00cce41b1a572567adedd092b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20c87503-0198-4ba7-bf6c-e4500c132f1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paul/create3_ws/build/irobot_create_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.111754] (irobot_create_description) JobProgress: {'identifier': 'irobot_create_description', 'progress': 'cmake'}
+[0.111883] (irobot_create_description) Command: {'cmd': ['/usr/bin/cmake', '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_description'], 'cwd': '/home/paul/create3_ws/build/irobot_create_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paul'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1554'), ('XDG_SESSION_TYPE', 'x11'), ('IGNITION_VERSION', 'edifice'), ('SHLVL', '1'), ('HOME', '/home/paul'), ('OLDPWD', '/home/paul/create3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1201'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2076'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'paul'), ('JOURNAL_STREAM', '8:41693'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Paul-Asus:@/tmp/.ICE-unix/1589,unix/Paul-Asus:/tmp/.ICE-unix/1589'), ('INVOCATION_ID', 'f35004b00cce41b1a572567adedd092b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20c87503-0198-4ba7-bf6c-e4500c132f1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paul/create3_ws/build/irobot_create_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.115915] (irobot_create_ignition_plugins) JobProgress: {'identifier': 'irobot_create_ignition_plugins', 'progress': 'cmake'}
+[0.119065] (irobot_create_ignition_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_plugins'], 'cwd': '/home/paul/create3_ws/build/irobot_create_ignition_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paul'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1554'), ('XDG_SESSION_TYPE', 'x11'), ('IGNITION_VERSION', 'edifice'), ('SHLVL', '1'), ('HOME', '/home/paul'), ('OLDPWD', '/home/paul/create3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1201'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2076'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'paul'), ('JOURNAL_STREAM', '8:41693'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'paul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Paul-Asus:@/tmp/.ICE-unix/1589,unix/Paul-Asus:/tmp/.ICE-unix/1589'), ('INVOCATION_ID', 'f35004b00cce41b1a572567adedd092b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20c87503-0198-4ba7-bf6c-e4500c132f1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paul/create3_ws/build/irobot_create_ignition_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.201067] (-) TimerEvent: {}
+[0.301642] (-) TimerEvent: {}
+[0.402294] (-) TimerEvent: {}
+[0.502949] (-) TimerEvent: {}
+[0.603641] (-) TimerEvent: {}
+[0.704360] (-) TimerEvent: {}
+[0.805035] (-) TimerEvent: {}
+[0.905778] (-) TimerEvent: {}
+[1.006458] (-) TimerEvent: {}
+[1.107136] (-) TimerEvent: {}
+[1.207920] (-) TimerEvent: {}
+[1.308630] (-) TimerEvent: {}
+[1.409343] (-) TimerEvent: {}
+[1.509977] (-) TimerEvent: {}
+[1.610653] (-) TimerEvent: {}
+[1.711344] (-) TimerEvent: {}
+[1.812048] (-) TimerEvent: {}
+[1.875076] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.875461] (irobot_create_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.877163] (irobot_create_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.877445] (irobot_create_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.912235] (-) TimerEvent: {}
+[2.012698] (-) TimerEvent: {}
+[2.113447] (-) TimerEvent: {}
+[2.214191] (-) TimerEvent: {}
+[2.314895] (-) TimerEvent: {}
+[2.415604] (-) TimerEvent: {}
+[2.516293] (-) TimerEvent: {}
+[2.616778] (-) TimerEvent: {}
+[2.717482] (-) TimerEvent: {}
+[2.817934] (-) TimerEvent: {}
+[2.918672] (-) TimerEvent: {}
+[3.019299] (-) TimerEvent: {}
+[3.119788] (-) TimerEvent: {}
+[3.138081] (irobot_create_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.140851] (irobot_create_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.141000] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.141722] (irobot_create_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.163864] (irobot_create_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.164365] (irobot_create_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.164880] (irobot_create_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.165096] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.219975] (-) TimerEvent: {}
+[3.313586] (irobot_create_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.313730] (irobot_create_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.313801] (irobot_create_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.313981] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.315330] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.315544] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.315610] (irobot_create_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.315670] (irobot_create_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.320053] (-) TimerEvent: {}
+[3.420425] (-) TimerEvent: {}
+[3.432271] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.432446] (irobot_create_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.432614] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.432718] (irobot_create_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.445699] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.445918] (irobot_create_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.455459] (irobot_create_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.455684] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.460104] (irobot_create_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.460364] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.460471] (irobot_create_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.460536] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.472063] (irobot_create_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.472275] (irobot_create_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.472348] (irobot_create_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.472412] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.520505] (-) TimerEvent: {}
+[3.546270] (irobot_create_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.546432] (irobot_create_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.546804] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.547706] (irobot_create_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.547808] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.547984] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.552369] (irobot_create_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.553398] (irobot_create_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.620416] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.620649] (-) TimerEvent: {}
+[3.620763] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.620844] (irobot_create_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.624400] (irobot_create_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.630898] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.631364] (irobot_create_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.635001] (irobot_create_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.635530] (irobot_create_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.638423] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.638624] (irobot_create_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.638884] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.639021] (irobot_create_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.685443] (irobot_create_control) StderrLine: {'line': b'CMake Error at CMakeLists.txt:5 (find_package):\n'}
+[3.685744] (irobot_create_control) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.686119] (irobot_create_control) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.686537] (irobot_create_control) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.686648] (irobot_create_control) StderrLine: {'line': b'\n'}
+[3.686752] (irobot_create_control) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.686855] (irobot_create_control) StderrLine: {'line': b'  any of the following names:\n'}
+[3.686964] (irobot_create_control) StderrLine: {'line': b'\n'}
+[3.687075] (irobot_create_control) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.687203] (irobot_create_control) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.687337] (irobot_create_control) StderrLine: {'line': b'\n'}
+[3.687461] (irobot_create_control) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.687602] (irobot_create_control) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.687740] (irobot_create_control) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.687879] (irobot_create_control) StderrLine: {'line': b'  has been installed.\n'}
+[3.688017] (irobot_create_control) StderrLine: {'line': b'\n'}
+[3.688159] (irobot_create_control) StderrLine: {'line': b'\n'}
+[3.688681] (irobot_create_ignition_plugins) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[3.689384] (irobot_create_ignition_plugins) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.689770] (irobot_create_ignition_plugins) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.690242] (irobot_create_ignition_plugins) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.692318] (irobot_create_ignition_plugins) StderrLine: {'line': b'\n'}
+[3.692472] (irobot_create_ignition_plugins) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.693669] (irobot_create_ignition_plugins) StderrLine: {'line': b'  any of the following names:\n'}
+[3.694001] (irobot_create_ignition_plugins) StderrLine: {'line': b'\n'}
+[3.695339] (irobot_create_ignition_plugins) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.695479] (irobot_create_ignition_plugins) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.695807] (irobot_create_ignition_plugins) StderrLine: {'line': b'\n'}
+[3.695875] (irobot_create_ignition_plugins) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.695945] (irobot_create_ignition_plugins) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.696093] (irobot_create_ignition_plugins) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.696527] (irobot_create_ignition_plugins) StderrLine: {'line': b'  has been installed.\n'}
+[3.696823] (irobot_create_ignition_plugins) StderrLine: {'line': b'\n'}
+[3.696983] (irobot_create_ignition_plugins) StderrLine: {'line': b'\n'}
+[3.697233] (irobot_create_toolbox) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[3.698629] (irobot_create_toolbox) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.698797] (irobot_create_toolbox) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.699787] (irobot_create_toolbox) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.701560] (irobot_create_toolbox) StderrLine: {'line': b'\n'}
+[3.701671] (irobot_create_toolbox) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.702145] (irobot_create_toolbox) StderrLine: {'line': b'  any of the following names:\n'}
+[3.702324] (irobot_create_toolbox) StderrLine: {'line': b'\n'}
+[3.702496] (irobot_create_toolbox) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.702660] (irobot_create_toolbox) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.702819] (irobot_create_toolbox) StderrLine: {'line': b'\n'}
+[3.702971] (irobot_create_toolbox) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.703132] (irobot_create_toolbox) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.703324] (irobot_create_toolbox) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.703647] (irobot_create_toolbox) StderrLine: {'line': b'  has been installed.\n'}
+[3.704178] (irobot_create_toolbox) StderrLine: {'line': b'\n'}
+[3.704434] (irobot_create_toolbox) StderrLine: {'line': b'\n'}
+[3.706313] (irobot_create_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.706621] (irobot_create_control) StdoutLine: {'line': b'See also "/home/paul/create3_ws/build/irobot_create_control/CMakeFiles/CMakeOutput.log".\n'}
+[3.706765] (irobot_create_ignition_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.706890] (irobot_create_ignition_plugins) StdoutLine: {'line': b'See also "/home/paul/create3_ws/build/irobot_create_ignition_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[3.706997] (irobot_create_toolbox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.707107] (irobot_create_toolbox) StdoutLine: {'line': b'See also "/home/paul/create3_ws/build/irobot_create_toolbox/CMakeFiles/CMakeOutput.log".\n'}
+[3.707213] (irobot_create_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.707332] (irobot_create_description) StdoutLine: {'line': b'See also "/home/paul/create3_ws/build/irobot_create_description/CMakeFiles/CMakeOutput.log".\n'}
+[3.707466] (irobot_create_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:5 (find_package):\n'}
+[3.707602] (irobot_create_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.707712] (irobot_create_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.707845] (irobot_create_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.707978] (irobot_create_description) StderrLine: {'line': b'\n'}
+[3.708079] (irobot_create_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.708192] (irobot_create_description) StderrLine: {'line': b'  any of the following names:\n'}
+[3.708298] (irobot_create_description) StderrLine: {'line': b'\n'}
+[3.708398] (irobot_create_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.708498] (irobot_create_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.708609] (irobot_create_description) StderrLine: {'line': b'\n'}
+[3.708734] (irobot_create_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.708855] (irobot_create_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.708975] (irobot_create_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.709138] (irobot_create_description) StderrLine: {'line': b'  has been installed.\n'}
+[3.709251] (irobot_create_description) StderrLine: {'line': b'\n'}
+[3.709359] (irobot_create_description) StderrLine: {'line': b'\n'}
+[3.709474] (irobot_create_ignition_plugins) CommandEnded: {'returncode': 1}
+[3.710049] (irobot_create_description) CommandEnded: {'returncode': 1}
+[3.710529] (irobot_create_control) CommandEnded: {'returncode': 1}
+[3.711016] (irobot_create_toolbox) CommandEnded: {'returncode': 1}
+[3.720883] (-) TimerEvent: {}
+[3.821360] (-) TimerEvent: {}
+[3.922119] (-) TimerEvent: {}
+[3.940281] (irobot_create_ignition_plugins) JobEnded: {'identifier': 'irobot_create_ignition_plugins', 'rc': 1}
+[3.944697] (irobot_create_description) JobEnded: {'identifier': 'irobot_create_description', 'rc': 'SIGINT'}
+[3.945847] (irobot_create_control) JobEnded: {'identifier': 'irobot_create_control', 'rc': 'SIGINT'}
+[3.946665] (irobot_create_toolbox) JobEnded: {'identifier': 'irobot_create_toolbox', 'rc': 'SIGINT'}
+[3.956291] (irobot_create_common_bringup) JobSkipped: {'identifier': 'irobot_create_common_bringup'}
+[3.956609] (irobot_create_gazebo_plugins) JobSkipped: {'identifier': 'irobot_create_gazebo_plugins'}
+[3.956851] (irobot_create_ignition_toolbox) JobSkipped: {'identifier': 'irobot_create_ignition_toolbox'}
+[3.957135] (irobot_create_nodes) JobSkipped: {'identifier': 'irobot_create_nodes'}
+[3.957239] (irobot_create_gazebo_bringup) JobSkipped: {'identifier': 'irobot_create_gazebo_bringup'}
+[3.957309] (irobot_create_ignition_bringup) JobSkipped: {'identifier': 'irobot_create_ignition_bringup'}
+[3.957584] (irobot_create_gazebo_sim) JobSkipped: {'identifier': 'irobot_create_gazebo_sim'}
+[3.957699] (irobot_create_ignition_sim) JobSkipped: {'identifier': 'irobot_create_ignition_sim'}
+[3.957779] (-) EventReactorShutdown: {}

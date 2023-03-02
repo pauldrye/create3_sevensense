@@ -1,0 +1,35 @@
+[0.038s] Invoking command in '/home/paul/create3_ws/build/irobot_create_toolbox': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_toolbox
+[1.876s] -- The C compiler identification is GNU 9.4.0
+[3.140s] -- The CXX compiler identification is GNU 9.4.0
+[3.164s] -- Check for working C compiler: /usr/bin/cc
+[3.313s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.314s] -- Detecting C compiler ABI info
+[3.431s] -- Detecting C compiler ABI info - done
+[3.444s] -- Detecting C compile features
+[3.459s] -- Detecting C compile features - done
+[3.471s] -- Check for working CXX compiler: /usr/bin/c++
+[3.545s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.546s] -- Detecting CXX compiler ABI info
+[3.619s] -- Detecting CXX compiler ABI info - done
+[3.630s] -- Detecting CXX compile features
+[3.630s] -- Detecting CXX compile features - done
+[3.697s] CMake Error at CMakeLists.txt:13 (find_package):
+[3.697s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.698s]   has asked CMake to find a package configuration file provided by
+[3.700s]   "ament_cmake", but CMake did not find one.
+[3.700s] 
+[3.701s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.701s]   any of the following names:
+[3.701s] 
+[3.701s]     ament_cmakeConfig.cmake
+[3.701s]     ament_cmake-config.cmake
+[3.702s] 
+[3.702s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.702s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.702s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.703s]   has been installed.
+[3.703s] 
+[3.704s] 
+[3.706s] -- Configuring incomplete, errors occurred!
+[3.706s] See also "/home/paul/create3_ws/build/irobot_create_toolbox/CMakeFiles/CMakeOutput.log".
+[3.710s] Invoked command in '/home/paul/create3_ws/build/irobot_create_toolbox' returned '1': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_toolbox

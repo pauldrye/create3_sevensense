@@ -1,0 +1,17 @@
+[ 10%] Built target hazards_vector_publisher
+[ 10%] Built target kidnap_estimator_publisher
+[ 16%] Built target motion_control
+[ 21%] Built target ui_mgr
+[ 32%] Built target mock_publisher
+[ 32%] Built target robot_state
+[ 48%] Built target kidnap_estimator_publisher_lib
+[ 48%] Built target ir_intensity_publisher_lib
+[ 48%] Built target hazard_publisher_lib
+[ 54%] Built target mock_publisher_lib
+[ 59%] Built target wheel_status_publisher_lib
+[ 64%] Built target robot_state_lib
+[ 70%] Built target wheel_status_publisher
+[ 75%] Built target ir_intensity_vector_publisher
+[ 81%] Built target ui_mgr_lib
+[35m[1mScanning dependencies of target motion_control_lib[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o[0m

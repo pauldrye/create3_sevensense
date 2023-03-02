@@ -1,0 +1,4 @@
+Invoking command in '/home/paul/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_control -- -j12 -l12
+Invoked command in '/home/paul/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_control -- -j12 -l12
+Invoking command in '/home/paul/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_control
+Invoked command in '/home/paul/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_control

@@ -1,0 +1,40 @@
+[11.970s] Invoking command in '/home/paul/create3_ws/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_description -- -j12 -l12
+[16.353s] Invoked command in '/home/paul/create3_ws/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_description -- -j12 -l12
+[16.384s] Invoking command in '/home/paul/create3_ws/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_description
+[16.394s] -- Install configuration: ""
+[16.756s] -- Execute custom install script
+[16.759s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/body_visual.dae
+[16.760s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/bumper_collision.dae
+[16.760s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/bumper_visual.dae
+[16.761s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//meshes/dock/visual.dae
+[16.761s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/bumper.urdf.xacro
+[16.762s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/button.urdf.xacro
+[16.762s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/caster.urdf.xacro
+[16.762s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/common_properties.urdf.xacro
+[16.762s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/create3.urdf.xacro
+[16.763s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/dock/ir_emitter.urdf.xacro
+[16.763s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/dock/standard_dock.urdf.xacro
+[16.763s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/cliff_sensor.urdf.xacro
+[16.763s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/imu.urdf.xacro
+[16.764s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_intensity.urdf.xacro
+[16.764s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_opcode_receivers.urdf.xacro
+[16.764s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/sensors/optical_mouse.urdf.xacro
+[16.765s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel.urdf.xacro
+[16.765s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel_drop.urdf.xacro
+[16.765s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description//urdf/wheel_with_wheeldrop.urdf.xacro
+[16.766s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/ament_index/resource_index/package_run_dependencies/irobot_create_description
+[16.766s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/ament_index/resource_index/parent_prefix_path/irobot_create_description
+[16.766s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.sh
+[16.767s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.dsv
+[16.767s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/path.sh
+[16.767s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/environment/path.dsv
+[16.768s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.bash
+[16.768s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.sh
+[16.769s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.zsh
+[16.769s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/local_setup.dsv
+[16.769s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.dsv
+[16.779s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/ament_index/resource_index/packages/irobot_create_description
+[16.779s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig.cmake
+[16.779s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig-version.cmake
+[16.779s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.xml
+[17.411s] Invoked command in '/home/paul/create3_ws/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_description

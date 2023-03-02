@@ -1,0 +1,11 @@
+[0.038s] Invoking command in '/home/paul/create3_ws/build/svg_drive_goals': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12
+[0.080s] [35m[1mScanning dependencies of target svg_drive_goals[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/svg_drive_goals.dir/src/svg_path_converter.cpp.o[0m
+[1.196s] [01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:[m[K In function ‘[01m[Kvoid convertSVGPathToDriveGoals(std::string, double, double)[m[K’:
+[1.197s] [01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:95:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcase_c[m[K’ was not declared in this scope
+[1.197s]    95 |                     [01;31m[Kcase_c[m[K(std::stod(params[0]), std::stod(params[1]),std::stod(params[2]),std::stod(params[3]),std::stod(params[4]),std::stod(params[5]), currentX, currentY, currentTheta, maxTranslationSpeed);
+[1.197s]       |                     [01;31m[K^~~~~~[m[K
+[1.641s] make[2]: *** [CMakeFiles/svg_drive_goals.dir/build.make:63: CMakeFiles/svg_drive_goals.dir/src/svg_path_converter.cpp.o] Error 1
+[1.642s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/svg_drive_goals.dir/all] Error 2
+[1.642s] make: *** [Makefile:141: all] Error 2
+[1.644s] Invoked command in '/home/paul/create3_ws/build/svg_drive_goals' returned '2': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12

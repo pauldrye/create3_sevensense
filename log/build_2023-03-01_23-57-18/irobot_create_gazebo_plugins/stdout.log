@@ -1,0 +1,52 @@
+[ 10%] Built target gazebo_ros_create_helpers
+[ 20%] Built target docking_manager
+[ 30%] Built target gazebo_ros_create_bumper
+[ 40%] Built target gazebo_ros_create_docking_status
+[ 50%] Built target gazebo_ros_create_cliff_sensor
+[ 60%] Built target gazebo_ros_create_ir_intensity_sensor
+[ 70%] Built target gazebo_ros_create_imu
+[ 90%] Built target gazebo_ros_create_wheel_drop
+[ 90%] Built target gazebo_ros_create_optical_mouse
+[100%] Built target gazebo_ros_create_ir_opcode
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/library_path.sh
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/library_path.dsv
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/docking_manager.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_bumper.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_cliff_sensor.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_docking_status.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_helpers.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_imu.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_ir_intensity_sensor.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_ir_opcode.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_optical_mouse.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_wheel_drop.hpp
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_bumper.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_cliff_sensor.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_docking_status.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_helpers.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_imu.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_intensity_sensor.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_optical_mouse.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_opcode.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libdocking_manager.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_wheel_drop.so
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_plugins
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_plugins
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/path.sh
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/path.dsv
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.bash
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.sh
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.zsh
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.dsv
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/package.dsv
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/packages/irobot_create_gazebo_plugins
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/irobot_create_gazebo_pluginsConfig.cmake
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/irobot_create_gazebo_pluginsConfig-version.cmake
+-- Symlinking: /home/paul/create3_ws/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/package.xml

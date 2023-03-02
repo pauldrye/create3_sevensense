@@ -1,0 +1,26 @@
+[0.034s] Invoking command in '/home/paul/create3_ws/build/svg_drive_goals': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12
+[0.077s] [35m[1mScanning dependencies of target svg_drive_goals[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/svg_drive_goals.dir/src/svg_path_converter.cpp.o[0m
+[2.404s] [100%] [32m[1mLinking CXX executable svg_drive_goals[0m
+[2.548s] [100%] Built target svg_drive_goals
+[2.559s] Invoked command in '/home/paul/create3_ws/build/svg_drive_goals' returned '0': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12
+[2.608s] Invoking command in '/home/paul/create3_ws/build/svg_drive_goals': /usr/bin/cmake --install /home/paul/create3_ws/build/svg_drive_goals
+[2.617s] -- Install configuration: ""
+[2.617s] -- Installing: /home/paul/create3_ws/install/svg_drive_goals/lib/svg_drive_goals/svg_drive_goals
+[2.619s] -- Set runtime path of "/home/paul/create3_ws/install/svg_drive_goals/lib/svg_drive_goals/svg_drive_goals" to ""
+[2.619s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/ament_index/resource_index/package_run_dependencies/svg_drive_goals
+[2.619s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/ament_index/resource_index/parent_prefix_path/svg_drive_goals
+[2.619s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/environment/ament_prefix_path.sh
+[2.620s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/environment/ament_prefix_path.dsv
+[2.620s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/environment/path.sh
+[2.620s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/environment/path.dsv
+[2.620s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/local_setup.bash
+[2.620s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/local_setup.sh
+[2.620s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/local_setup.zsh
+[2.620s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/local_setup.dsv
+[2.620s] -- Installing: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/package.dsv
+[2.621s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/ament_index/resource_index/packages/svg_drive_goals
+[2.621s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/cmake/svg_drive_goalsConfig.cmake
+[2.621s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/cmake/svg_drive_goalsConfig-version.cmake
+[2.621s] -- Up-to-date: /home/paul/create3_ws/install/svg_drive_goals/share/svg_drive_goals/package.xml
+[2.622s] Invoked command in '/home/paul/create3_ws/build/svg_drive_goals' returned '0': /usr/bin/cmake --install /home/paul/create3_ws/build/svg_drive_goals

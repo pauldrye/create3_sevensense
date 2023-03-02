@@ -1,0 +1,20 @@
+[0.050s] Invoking command in '/home/paul/create3_ws/build/svg_drive_goals': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12
+[0.092s] [35m[1mScanning dependencies of target svg_drive_goals[0m
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/svg_drive_goals.dir/src/svg_path_converter.cpp.o[0m
+[1.172s] [01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:[m[K In function ‘[01m[Kvoid convertSVGPathToDriveGoals(std::string, double, double)[m[K’:
+[1.173s] [01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:15:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t start[m[K’
+[1.173s]    15 |     size_t [01;31m[Kstart[m[K = 0, end;
+[1.173s]       |            [01;31m[K^~~~~[m[K
+[1.173s] [01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:13:12:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t start[m[K’ previously declared here
+[1.174s]    13 |     size_t [01;36m[Kstart[m[K = 0;
+[1.174s]       |            [01;36m[K^~~~~[m[K
+[1.174s] [01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:15:23:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t end[m[K’
+[1.174s]    15 |     size_t start = 0, [01;31m[Kend[m[K;
+[1.175s]       |                       [01;31m[K^~~[m[K
+[1.177s] [01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:14:12:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t end[m[K’ previously declared here
+[1.178s]    14 |     size_t [01;36m[Kend[m[K = 0;
+[1.178s]       |            [01;36m[K^~~[m[K
+[1.631s] make[2]: *** [CMakeFiles/svg_drive_goals.dir/build.make:63: CMakeFiles/svg_drive_goals.dir/src/svg_path_converter.cpp.o] Error 1
+[1.632s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/svg_drive_goals.dir/all] Error 2
+[1.632s] make: *** [Makefile:141: all] Error 2
+[1.634s] Invoked command in '/home/paul/create3_ws/build/svg_drive_goals' returned '2': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12

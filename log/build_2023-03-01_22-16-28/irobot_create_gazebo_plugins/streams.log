@@ -1,0 +1,93 @@
+[0.049s] Invoking command in '/home/paul/create3_ws/build/irobot_create_gazebo_plugins': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_gazebo_plugins -- -j12 -l12
+[0.080s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.105s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.203s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.221s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.481s] -- Found irobot_create_msgs: 1.2.4 (/opt/ros/galactic/share/irobot_create_msgs/cmake)
+[0.679s] -- Found irobot_create_toolbox: 1.0.3 (/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+[0.730s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.732s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.750s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.879s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.986s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.014s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.016s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.016s] -- Looking for OGRE...
+[1.021s] -- Found Ogre Ghadamon (1.9.0)
+[1.022s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.030s] -- Looking for OGRE_Paging...
+[1.030s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.031s] -- Looking for OGRE_Terrain...
+[1.031s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.031s] -- Looking for OGRE_Property...
+[1.031s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.031s] -- Looking for OGRE_RTShaderSystem...
+[1.031s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.031s] -- Looking for OGRE_Volume...
+[1.031s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.031s] -- Looking for OGRE_Overlay...
+[1.032s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.167s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.167s] -- Looking for ignition-transport8 -- found version 8.4.0
+[1.168s] -- Searching for dependencies of ignition-transport8
+[1.186s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.198s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.203s] -- Checking for module 'libzmq >= 4'
+[1.221s] --   Found libzmq , version 4.3.2
+[1.272s] -- Checking for module 'uuid'
+[1.291s] --   Found uuid, version 2.34.0
+[1.333s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.333s] -- Searching for dependencies of ignition-msgs5
+[1.354s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.358s] -- Checking for module 'tinyxml2'
+[1.375s] --   Found tinyxml2, version 6.2.0
+[1.417s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.417s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.417s] -- Searching for dependencies of ignition-common3
+[1.417s] -- Looking for dlfcn.h - found
+[1.418s] -- Looking for libdl - found
+[1.426s] -- Searching for <ignition-common3> component [graphics]
+[1.427s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[1.427s] -- Searching for dependencies of ignition-common3-graphics
+[1.427s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.428s] -- Looking for ignition-fuel_tools4 -- found version 4.8.1
+[1.429s] -- Searching for dependencies of ignition-fuel_tools4
+[1.456s] -- Checking for module 'jsoncpp'
+[1.473s] --   Found jsoncpp, version 1.7.4
+[1.520s] -- Checking for module 'libzip'
+[1.540s] --   Found libzip, version 1.5.1
+[1.586s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.586s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.586s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.588s] -- Gazebo version: 11.12
+[1.823s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.882s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.886s] -- Configured cppcheck include dirs: /home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/include
+[1.886s] -- Configured cppcheck exclude dirs and/or files: 
+[1.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.887s] -- Configured cpplint exclude dirs and/or files: 
+[1.888s] -- Added test 'lint_cmake' to check CMake code style
+[1.889s] -- Added test 'uncrustify' to check C / C++ code style
+[1.889s] -- Configured uncrustify additional arguments: 
+[1.889s] -- Added test 'xmllint' to check XML markup files
+[1.894s] -- Configuring done
+[2.181s] -- Generating done
+[2.185s] -- Build files have been written to: /home/paul/create3_ws/build/irobot_create_gazebo_plugins
+[2.215s] [35m[1mScanning dependencies of target gazebo_ros_create_helpers[0m
+[2.216s] [35m[1mScanning dependencies of target create_line_plugin[0m
+[2.240s] [  4%] [32mBuilding CXX object CMakeFiles/create_line_plugin.dir/src/line_plugin.cpp.o[0m
+[2.276s] [  9%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_helpers.dir/src/gazebo_ros_helpers.cpp.o[0m
+[29.088s] [01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/rendering/Geometry.hh: No such file or directory
+[29.089s]     6 | #include [01;31m[K<gazebo/rendering/Geometry.hh>[m[K
+[29.089s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.089s] compilation terminated.
+[29.790s] make[2]: *** [CMakeFiles/create_line_plugin.dir/build.make:63: CMakeFiles/create_line_plugin.dir/src/line_plugin.cpp.o] Error 1
+[29.790s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/create_line_plugin.dir/all] Error 2
+[29.790s] make[1]: *** Waiting for unfinished jobs....
+[53.905s] [ 13%] [32m[1mLinking CXX shared library libgazebo_ros_create_helpers.so[0m
+[62.035s] [ 13%] Built target gazebo_ros_create_helpers
+[62.037s] make: *** [Makefile:141: all] Error 2
+[62.039s] Invoked command in '/home/paul/create3_ws/build/irobot_create_gazebo_plugins' returned '2': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_gazebo_plugins -- -j12 -l12

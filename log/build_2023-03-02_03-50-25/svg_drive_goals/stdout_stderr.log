@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target svg_drive_goals[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/svg_drive_goals.dir/src/svg_path_converter.cpp.o[0m
+[01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:[m[K In function ‘[01m[Kvoid convertSVGPathToDriveGoals(std::string, double, double)[m[K’:
+[01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:15:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t start[m[K’
+   15 |     size_t [01;31m[Kstart[m[K = 0, end;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:13:12:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t start[m[K’ previously declared here
+   13 |     size_t [01;36m[Kstart[m[K = 0;
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:15:23:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t end[m[K’
+   15 |     size_t start = 0, [01;31m[Kend[m[K;
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp:14:12:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t end[m[K’ previously declared here
+   14 |     size_t [01;36m[Kend[m[K = 0;
+      |            [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/svg_drive_goals.dir/build.make:63: CMakeFiles/svg_drive_goals.dir/src/svg_path_converter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/svg_drive_goals.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

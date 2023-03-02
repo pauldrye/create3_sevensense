@@ -1,0 +1,2 @@
+Invoking command in '/home/paul/create3_ws/build/svg_drive_goals': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/svg_drive_goals -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/svg_drive_goals
+Invoked command in '/home/paul/create3_ws/build/svg_drive_goals' returned '1': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/svg_drive_goals -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/svg_drive_goals

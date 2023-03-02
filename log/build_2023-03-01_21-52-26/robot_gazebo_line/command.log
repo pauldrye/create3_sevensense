@@ -1,0 +1,2 @@
+Invoking command in '/home/paul/create3_ws/build/robot_gazebo_line': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/robot_gazebo_line -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/robot_gazebo_line
+Invoked command in '/home/paul/create3_ws/build/robot_gazebo_line' returned '1': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/robot_gazebo_line -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/robot_gazebo_line

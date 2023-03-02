@@ -1,0 +1,73 @@
+[0.033s] Invoking command in '/home/paul/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_toolbox
+[0.149s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.237s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.237s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.604s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.659s] -- Searching for dependencies of ignition-math6
+[0.694s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.025s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.040s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.563s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.653s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.002s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.037s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.130s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.131s] -- Looking for pthread.h
+[2.194s] -- Looking for pthread.h - found
+[2.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.259s] -- Looking for pthread_create in pthreads
+[2.317s] -- Looking for pthread_create in pthreads - not found
+[2.317s] -- Looking for pthread_create in pthread
+[2.386s] -- Looking for pthread_create in pthread - found
+[2.388s] -- Found Threads: TRUE  
+[2.747s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.813s] -- Configured cppcheck include dirs: /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox/include
+[2.813s] -- Configured cppcheck exclude dirs and/or files: 
+[2.813s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.813s] -- Configured cpplint exclude dirs and/or files: 
+[2.814s] -- Added test 'lint_cmake' to check CMake code style
+[2.815s] -- Added test 'uncrustify' to check C / C++ code style
+[2.815s] -- Configured uncrustify additional arguments: 
+[2.815s] -- Added test 'xmllint' to check XML markup files
+[2.820s] -- Configuring done
+[2.825s] -- Generating done
+[2.827s] -- Build files have been written to: /home/paul/create3_ws/build/irobot_create_toolbox
+[2.833s] Invoked command in '/home/paul/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_toolbox
+[2.835s] Invoking command in '/home/paul/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_toolbox -- -j12 -l12
+[2.871s] [35m[1mScanning dependencies of target irobot_create_toolbox[0m
+[2.986s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_toolbox.dir/src/polar_coordinates.cpp.o[0m
+[5.720s] [100%] [32m[1mLinking CXX shared library libirobot_create_toolbox.so[0m
+[6.334s] [100%] Built target irobot_create_toolbox
+[6.344s] Invoked command in '/home/paul/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_toolbox -- -j12 -l12
+[6.368s] Invoking command in '/home/paul/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_toolbox
+[6.375s] -- Install configuration: ""
+[6.376s] -- Execute custom install script
+[6.376s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so
+[6.385s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/math.hpp
+[6.392s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/polar_coordinates.hpp
+[6.400s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors/bumpers.hpp
+[6.408s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.sh
+[6.416s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.dsv
+[6.424s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_toolbox
+[6.432s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_toolbox
+[6.440s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.sh
+[6.448s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.dsv
+[6.456s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.sh
+[6.464s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.dsv
+[6.473s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.bash
+[6.481s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.sh
+[6.489s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.zsh
+[6.498s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.dsv
+[6.506s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv
+[6.515s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/ament_index/resource_index/packages/irobot_create_toolbox
+[6.523s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.532s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[6.540s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.549s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig.cmake
+[6.557s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig-version.cmake
+[6.565s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.xml
+[6.580s] Invoked command in '/home/paul/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_toolbox

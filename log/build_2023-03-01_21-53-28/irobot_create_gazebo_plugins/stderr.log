@@ -1,0 +1,88 @@
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:41:18:[m[K [01;31m[Kerror: [m[K‘[01m[KGeometryPtr[m[K’ in namespace ‘[01m[Kgazebo::rendering[m[K’ does not name a type
+   41 |       rendering::[01;31m[KGeometryPtr[m[K geometry_;
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::LinePlugin::Load(gazebo::rendering::VisualPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:16:20:[m[K [01;31m[Kerror: [m[K‘[01m[KGeometryPtr[m[K’ is not a member of ‘[01m[Kgazebo::rendering[m[K’; did you mean ‘[01m[Kgazebo::msgs::GeometryPtr[m[K’?
+   16 |         rendering::[01;31m[KGeometryPtr[m[K geometry(new rendering::Geometry());
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/msgs/collision.pb.h:34[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh:17[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/msgs/msgs.hh:35[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:20[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/msgs/geometry.pb.h:870:51:[m[K [01;36m[Knote: [m[K‘[01m[Kgazebo::msgs::GeometryPtr[m[K’ declared here
+  870 | typedef boost::shared_ptr<gazebo::msgs::Geometry> [01;36m[KGeometryPtr[m[K;
+      |                                                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:17:20:[m[K [01;31m[Kerror: [m[K‘[01m[KMaterialPtr[m[K’ is not a member of ‘[01m[Kgazebo::rendering[m[K’; did you mean ‘[01m[KMaterial[m[K’?
+   17 |         rendering::[01;31m[KMaterialPtr[m[K material(new rendering::Material());
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+      |                    [32m[KMaterial[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaterial[m[K’ was not declared in this scope
+   18 |         [01;31m[Kmaterial[m[K->SetAmbient(common::Color(1.0, 0.0, 0.0, 1.0));
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:18:62:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass gazebo::common::Color[m[K’
+   18 |         material->SetAmbient(common::Color(1.0, 0.0, 0.0, 1.0[01;31m[K)[m[K);
+      |                                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:26[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:76:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass gazebo::common::Color[m[K’
+   76 |     class [01;36m[KColor[m[K;
+      |           [01;36m[K^~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:19:62:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass gazebo::common::Color[m[K’
+   19 |         material->SetDiffuse(common::Color(1.0, 0.0, 0.0, 1.0[01;31m[K)[m[K);
+      |                                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/common/Battery.hh:26[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:8[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo_core.hh:19[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/gazebo.hh:20[m[K,
+                 from [01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:1[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:76:11:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass gazebo::common::Color[m[K’
+   76 |     class [01;36m[KColor[m[K;
+      |           [01;36m[K^~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry[m[K’ was not declared in this scope
+   20 |         [01;31m[Kgeometry[m[K->AddLine(math::Vector3(0, 0, 0), math::Vector3(0, 0, -1), material);
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:20:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ has not been declared
+   20 |         geometry->AddLine([01;31m[Kmath[m[K::Vector3(0, 0, 0), math::Vector3(0, 0, -1), material);
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:20:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ has not been declared
+   20 |         geometry->AddLine(math::Vector3(0, 0, 0), [01;31m[Kmath[m[K::Vector3(0, 0, -1), material);
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:23:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::rendering::Scene[m[K’ has no member named ‘[01m[KAddGeometry[m[K’
+   23 |         _parent->GetScene()->[01;31m[KAddGeometry[m[K(geometry);
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:26:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ has not been declared
+   26 |         geometry->SetPose([01;31m[Kmath[m[K::Pose(_parent->GetWorldPose().pos.x, _parent->GetWorldPose().pos.y, _parent->GetWorldPose().pos.z - 0.1));
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:26:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class gazebo::rendering::Visual[m[K’ {aka ‘[01m[Kclass gazebo::rendering::Visual[m[K’} has no member named ‘[01m[KGetWorldPose[m[K’; did you mean ‘[01m[KSetWorldPose[m[K’?
+   26 |         geometry->SetPose(math::Pose(_parent->[01;31m[KGetWorldPose[m[K().pos.x, _parent->GetWorldPose().pos.y, _parent->GetWorldPose().pos.z - 0.1));
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+      |                                               [32m[KSetWorldPose[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:26:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class gazebo::rendering::Visual[m[K’ {aka ‘[01m[Kclass gazebo::rendering::Visual[m[K’} has no member named ‘[01m[KGetWorldPose[m[K’; did you mean ‘[01m[KSetWorldPose[m[K’?
+   26 |         geometry->SetPose(math::Pose(_parent->GetWorldPose().pos.x, _parent->[01;31m[KGetWorldPose[m[K().pos.y, _parent->GetWorldPose().pos.z - 0.1));
+      |                                                                              [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                                              [32m[KSetWorldPose[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:26:109:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class gazebo::rendering::Visual[m[K’ {aka ‘[01m[Kclass gazebo::rendering::Visual[m[K’} has no member named ‘[01m[KGetWorldPose[m[K’; did you mean ‘[01m[KSetWorldPose[m[K’?
+   26 | math::Pose(_parent->GetWorldPose().pos.x, _parent->GetWorldPose().pos.y, _parent->[01;31m[KGetWorldPose[m[K().pos.z - 0.1));
+      |                                                                                   [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                                                   [32m[KSetWorldPose[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::LinePlugin::OnUpdate()[m[K’:
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ has not been declared
+   35 |         [01;31m[Kmath[m[K::Pose pose = this->visual_->GetParent()->GetWorldPose();
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:36:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::LinePlugin[m[K’ has no member named ‘[01m[Kgeometry_[m[K’
+   36 |         this->[01;31m[Kgeometry_[m[K->SetPose(math::Pose(pose.pos.x, pose.pos.y, pose.pos.z - 0.1));
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:36:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ has not been declared
+   36 |         this->geometry_->SetPose([01;31m[Kmath[m[K::Pose(pose.pos.x, pose.pos.y, pose.pos.z - 0.1));
+      |                                  [01;31m[K^~~~[m[K
+[01m[K/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/src/line_plugin.cpp:36:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+   36 |         this->geometry_->SetPose(math::Pose([01;31m[Kpose[m[K.pos.x, pose.pos.y, pose.pos.z - 0.1));
+      |                                             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/create_line_plugin.dir/build.make:63: CMakeFiles/create_line_plugin.dir/src/line_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/create_line_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

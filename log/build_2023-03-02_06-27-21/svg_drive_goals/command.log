@@ -1,0 +1,4 @@
+Invoking command in '/home/paul/create3_ws/build/svg_drive_goals': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12
+Invoked command in '/home/paul/create3_ws/build/svg_drive_goals' returned '0': /usr/bin/cmake --build /home/paul/create3_ws/build/svg_drive_goals -- -j12 -l12
+Invoking command in '/home/paul/create3_ws/build/svg_drive_goals': /usr/bin/cmake --install /home/paul/create3_ws/build/svg_drive_goals
+Invoked command in '/home/paul/create3_ws/build/svg_drive_goals' returned '0': /usr/bin/cmake --install /home/paul/create3_ws/build/svg_drive_goals

@@ -1,0 +1,74 @@
+[0.348s] Invoking command in '/home/paul/create3_ws/build/irobot_create_nodes': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_nodes -- -j12 -l12
+[1.579s] [  5%] Built target ui_mgr
+[1.608s] [ 10%] Built target mock_publisher
+[1.613s] [ 16%] Built target robot_state
+[1.643s] [ 21%] Built target motion_control
+[1.706s] [ 27%] Built target hazards_vector_publisher
+[1.740s] [ 37%] Built target wheel_status_publisher_lib
+[1.740s] [ 37%] Built target ir_intensity_publisher_lib
+[1.743s] [ 48%] Built target mock_publisher_lib
+[1.743s] [ 48%] Built target hazard_publisher_lib
+[1.906s] [ 54%] Built target kidnap_estimator_publisher
+[1.915s] [ 59%] Built target kidnap_estimator_publisher_lib
+[2.057s] [ 64%] Built target wheel_status_publisher
+[2.088s] [ 70%] Built target ir_intensity_vector_publisher
+[2.176s] [ 89%] Built target motion_control_lib
+[2.281s] [ 94%] Built target robot_state_lib
+[2.292s] [100%] Built target ui_mgr_lib
+[2.304s] Invoked command in '/home/paul/create3_ws/build/irobot_create_nodes' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_nodes -- -j12 -l12
+[2.374s] Invoking command in '/home/paul/create3_ws/build/irobot_create_nodes': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_nodes
+[2.397s] -- Install configuration: ""
+[2.415s] -- Execute custom install script
+[2.534s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher
+[2.562s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher
+[2.580s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control
+[2.611s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher
+[2.615s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state
+[2.622s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr
+[2.622s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher
+[2.622s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher
+[2.622s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/libhazard_publisher_lib.so
+[2.622s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so
+[2.622s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/libmotion_control_lib.so
+[2.623s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so
+[2.623s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/librobot_state_lib.so
+[2.623s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/libui_mgr_lib.so
+[2.623s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/libmock_publisher_lib.so
+[2.624s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so
+[2.625s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/hazards_vector_publisher.hpp
+[2.625s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/ir_intensity_vector_publisher.hpp
+[2.625s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/kidnap_estimator_publisher.hpp
+[2.626s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/mock_publisher.hpp
+[2.642s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/behaviors_scheduler.hpp
+[2.642s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/docking_behavior.hpp
+[2.643s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/drive_goal_behaviors.hpp
+[2.644s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/reflex_behavior.hpp
+[2.645s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/simple_goal_controller.hpp
+[2.648s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_behavior.hpp
+[2.648s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_states.hpp
+[2.650s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control_node.hpp
+[2.651s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/robot_state.hpp
+[2.651s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/ui_mgr.hpp
+[2.652s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/include/irobot_create_nodes/wheels_publisher.hpp
+[2.653s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.sh
+[2.653s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.dsv
+[2.654s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/package_run_dependencies/irobot_create_nodes
+[2.659s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/parent_prefix_path/irobot_create_nodes
+[2.660s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.sh
+[2.661s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.dsv
+[2.666s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.sh
+[2.667s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.dsv
+[2.669s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.bash
+[2.673s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.sh
+[2.674s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.zsh
+[2.675s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.dsv
+[2.676s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.dsv
+[2.791s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/packages/irobot_create_nodes
+[2.809s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/ament_index/resource_index/rclcpp_components/irobot_create_nodes
+[2.814s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.817s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+[2.819s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.821s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig.cmake
+[2.824s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig-version.cmake
+[2.830s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.xml
+[2.842s] Invoked command in '/home/paul/create3_ws/build/irobot_create_nodes' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_nodes

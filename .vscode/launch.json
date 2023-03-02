@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Valgrind",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/create3_sim/svg_drive_goals/src/svg_path_converter.cpp",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "miDebuggerArgs": 
+                "--verbose",
+        }
+    ]
+}

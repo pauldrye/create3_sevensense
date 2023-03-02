@@ -1,0 +1,705 @@
+[27.986s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[27.986s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f127f211b50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f127f211b50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f127f21e100>)
+[31.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[31.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[31.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[31.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[31.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[31.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[31.564s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/paul/create3_ws'
+[31.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[31.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[31.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[31.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[31.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[31.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[31.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[31.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[31.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[32.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[32.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[32.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[32.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[32.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[32.736s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[32.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[32.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extensions ['ignore', 'ignore_ament_install']
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'ignore'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'ignore_ament_install'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extensions ['colcon_pkg']
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'colcon_pkg'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extensions ['colcon_meta']
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'colcon_meta'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extensions ['ros']
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'ros'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extensions ['cmake', 'python']
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'cmake'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'python'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extensions ['python_setup_py']
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim) by extension 'python_setup_py'
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extensions ['ignore', 'ignore_ament_install']
+[32.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'ignore'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'ignore_ament_install'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extensions ['colcon_pkg']
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'colcon_pkg'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extensions ['colcon_meta']
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'colcon_meta'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extensions ['ros']
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'ros'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extensions ['cmake', 'python']
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'cmake'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'python'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extensions ['python_setup_py']
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common) by extension 'python_setup_py'
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['ignore', 'ignore_ament_install']
+[32.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ignore'
+[32.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ignore_ament_install'
+[32.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['colcon_pkg']
+[32.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extension 'colcon_pkg'
+[32.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['colcon_meta']
+[32.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extension 'colcon_meta'
+[32.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['ros']
+[32.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ros'
+[32.802s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_common/irobot_create_common_bringup' with type 'ros.ament_cmake' and name 'irobot_create_common_bringup'
+[32.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extensions ['ignore', 'ignore_ament_install']
+[32.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extension 'ignore'
+[32.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extension 'ignore_ament_install'
+[32.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extensions ['colcon_pkg']
+[32.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extension 'colcon_pkg'
+[32.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extensions ['colcon_meta']
+[32.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extension 'colcon_meta'
+[32.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extensions ['ros']
+[32.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_control) by extension 'ros'
+[32.808s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_common/irobot_create_control' with type 'ros.ament_cmake' and name 'irobot_create_control'
+[32.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extensions ['ignore', 'ignore_ament_install']
+[32.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extension 'ignore'
+[32.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extension 'ignore_ament_install'
+[32.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extensions ['colcon_pkg']
+[32.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extension 'colcon_pkg'
+[32.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extensions ['colcon_meta']
+[32.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extension 'colcon_meta'
+[32.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extensions ['ros']
+[32.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_description) by extension 'ros'
+[32.813s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_common/irobot_create_description' with type 'ros.ament_cmake' and name 'irobot_create_description'
+[32.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extensions ['ignore', 'ignore_ament_install']
+[32.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extension 'ignore'
+[32.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extension 'ignore_ament_install'
+[32.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extensions ['colcon_pkg']
+[32.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extension 'colcon_pkg'
+[32.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extensions ['colcon_meta']
+[32.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extension 'colcon_meta'
+[32.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extensions ['ros']
+[32.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_nodes) by extension 'ros'
+[32.823s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_common/irobot_create_nodes' with type 'ros.ament_cmake' and name 'irobot_create_nodes'
+[32.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[32.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extension 'ignore'
+[32.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extension 'ignore_ament_install'
+[32.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extensions ['colcon_pkg']
+[32.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extension 'colcon_pkg'
+[32.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extensions ['colcon_meta']
+[32.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extension 'colcon_meta'
+[32.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extensions ['ros']
+[32.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_common/irobot_create_toolbox) by extension 'ros'
+[32.829s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_common/irobot_create_toolbox' with type 'ros.ament_cmake' and name 'irobot_create_toolbox'
+[32.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[32.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'ignore'
+[32.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'ignore_ament_install'
+[32.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extensions ['colcon_pkg']
+[32.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'colcon_pkg'
+[32.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extensions ['colcon_meta']
+[32.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'colcon_meta'
+[32.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extensions ['ros']
+[32.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'ros'
+[32.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extensions ['cmake', 'python']
+[32.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'cmake'
+[32.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'python'
+[32.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extensions ['python_setup_py']
+[32.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo) by extension 'python_setup_py'
+[32.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[32.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ignore'
+[32.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ignore_ament_install'
+[32.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['colcon_pkg']
+[32.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'colcon_pkg'
+[32.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['colcon_meta']
+[32.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'colcon_meta'
+[32.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['ros']
+[32.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ros'
+[32.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_bringup'
+[32.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[32.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ignore'
+[32.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ignore_ament_install'
+[32.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['colcon_pkg']
+[32.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'colcon_pkg'
+[32.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['colcon_meta']
+[32.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'colcon_meta'
+[32.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['ros']
+[32.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ros'
+[32.841s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_plugins'
+[32.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[32.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ignore'
+[32.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ignore_ament_install'
+[32.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['colcon_pkg']
+[32.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'colcon_pkg'
+[32.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['colcon_meta']
+[32.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'colcon_meta'
+[32.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['ros']
+[32.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ros'
+[32.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_sim'
+[32.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extensions ['ignore', 'ignore_ament_install']
+[32.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'ignore'
+[32.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'ignore_ament_install'
+[32.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extensions ['colcon_pkg']
+[32.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'colcon_pkg'
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extensions ['colcon_meta']
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'colcon_meta'
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extensions ['ros']
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'ros'
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extensions ['cmake', 'python']
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'cmake'
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'python'
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extensions ['python_setup_py']
+[32.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition) by extension 'python_setup_py'
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extensions ['ignore', 'ignore_ament_install']
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extension 'ignore'
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extension 'ignore_ament_install'
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extensions ['colcon_pkg']
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extension 'colcon_pkg'
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extensions ['colcon_meta']
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extension 'colcon_meta'
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extensions ['ros']
+[32.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup) by extension 'ros'
+[32.849s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup' with type 'ros.ament_cmake' and name 'irobot_create_ignition_bringup'
+[32.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extensions ['ignore', 'ignore_ament_install']
+[32.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extension 'ignore'
+[32.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extension 'ignore_ament_install'
+[32.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extensions ['colcon_pkg']
+[32.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extension 'colcon_pkg'
+[32.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extensions ['colcon_meta']
+[32.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extension 'colcon_meta'
+[32.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extensions ['ros']
+[32.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins) by extension 'ros'
+[32.851s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins' with type 'ros.ament_cmake' and name 'irobot_create_ignition_plugins'
+[32.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extensions ['ignore', 'ignore_ament_install']
+[32.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extension 'ignore'
+[32.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extension 'ignore_ament_install'
+[32.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extensions ['colcon_pkg']
+[32.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extension 'colcon_pkg'
+[32.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extensions ['colcon_meta']
+[32.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extension 'colcon_meta'
+[32.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extensions ['ros']
+[32.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim) by extension 'ros'
+[32.853s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim' with type 'ros.ament_cmake' and name 'irobot_create_ignition_sim'
+[32.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[32.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extension 'ignore'
+[32.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extension 'ignore_ament_install'
+[32.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extensions ['colcon_pkg']
+[32.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extension 'colcon_pkg'
+[32.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extensions ['colcon_meta']
+[32.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extension 'colcon_meta'
+[32.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extensions ['ros']
+[32.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox) by extension 'ros'
+[32.857s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox' with type 'ros.ament_cmake' and name 'irobot_create_ignition_toolbox'
+[32.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extensions ['ignore', 'ignore_ament_install']
+[32.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extension 'ignore'
+[32.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extension 'ignore_ament_install'
+[32.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extensions ['colcon_pkg']
+[32.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extension 'colcon_pkg'
+[32.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extensions ['colcon_meta']
+[32.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extension 'colcon_meta'
+[32.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extensions ['ros']
+[32.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extension 'ros'
+[32.859s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/create3_sim/robot_gazebo_line': Error(s) in package 'src/create3_sim/robot_gazebo_line/package.xml':
+Error(s):
+- The manifest of package "robot_gazebo_line" (with format version 2) must not contain the following tags: run_depend
+- Please replace <run_depend> tags with <exec_depend> tags.
+[32.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extensions ['cmake', 'python']
+[32.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extension 'cmake'
+[32.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_sim/robot_gazebo_line) by extension 'python'
+[32.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_sim/robot_gazebo_line' with type 'cmake' and name 'robot_gazebo_line'
+[32.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[32.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[32.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[32.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[32.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[34.414s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[34.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[34.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[34.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/paul/create3_ws/install
+[34.997s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 309 installed packages in /opt/ros/galactic
+[35.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[42.954s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_args' from command line to 'None'
+[42.954s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_target' from command line to 'None'
+[42.955s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.955s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_clean_cache' from command line to 'False'
+[42.955s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_clean_first' from command line to 'False'
+[42.955s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_force_configure' from command line to 'False'
+[42.955s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'ament_cmake_args' from command line to 'None'
+[42.955s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'catkin_cmake_args' from command line to 'None'
+[42.956s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.956s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_control', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_control', 'symlink_install': False, 'test_result_base': None}
+[42.960s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_args' from command line to 'None'
+[42.960s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_target' from command line to 'None'
+[42.960s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.960s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_clean_cache' from command line to 'False'
+[42.961s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_clean_first' from command line to 'False'
+[42.961s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_force_configure' from command line to 'False'
+[42.961s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'ament_cmake_args' from command line to 'None'
+[42.961s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'catkin_cmake_args' from command line to 'None'
+[42.961s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.961s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_description', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_description', 'symlink_install': False, 'test_result_base': None}
+[42.965s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'cmake_args' from command line to 'None'
+[42.965s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'cmake_target' from command line to 'None'
+[42.966s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.966s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[42.966s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[42.966s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[42.966s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[42.967s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[42.967s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.967s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_ignition_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_ignition_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_ignition_plugins', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins', 'symlink_install': False, 'test_result_base': None}
+[42.971s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_args' from command line to 'None'
+[42.971s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_target' from command line to 'None'
+[42.971s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.971s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[42.971s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[42.971s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[42.972s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[42.972s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[42.972s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.972s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_toolbox', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox', 'symlink_install': False, 'test_result_base': None}
+[42.974s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'cmake_args' from command line to 'None'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'cmake_target' from command line to 'None'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'cmake_clean_cache' from command line to 'False'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'cmake_clean_first' from command line to 'False'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'cmake_force_configure' from command line to 'False'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'ament_cmake_args' from command line to 'None'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'catkin_cmake_args' from command line to 'None'
+[42.975s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_line' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.975s] DEBUG:colcon.colcon_core.verb:Building package 'robot_gazebo_line' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/robot_gazebo_line', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/robot_gazebo_line', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/robot_gazebo_line', 'symlink_install': False, 'test_result_base': None}
+[42.977s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_args' from command line to 'None'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_target' from command line to 'None'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[42.978s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.978s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_common_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_common_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_common_bringup', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_common_bringup', 'symlink_install': False, 'test_result_base': None}
+[42.980s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[42.980s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[42.980s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.980s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[42.980s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[42.981s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[42.981s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[42.981s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[42.981s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.981s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_gazebo_plugins', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'cmake_args' from command line to 'None'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'cmake_target' from command line to 'None'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[42.983s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.983s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_ignition_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_ignition_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_ignition_toolbox', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox', 'symlink_install': False, 'test_result_base': None}
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_args' from command line to 'None'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_target' from command line to 'None'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[42.985s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.985s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_nodes', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes', 'symlink_install': False, 'test_result_base': None}
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_args' from command line to 'None'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_target' from command line to 'None'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[42.987s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.987s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_gazebo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_gazebo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_gazebo_bringup', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup', 'symlink_install': False, 'test_result_base': None}
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'cmake_args' from command line to 'None'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'cmake_target' from command line to 'None'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[42.989s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.989s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_ignition_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_ignition_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_ignition_bringup', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup', 'symlink_install': False, 'test_result_base': None}
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[42.991s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.991s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_gazebo_sim', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[42.992s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'cmake_args' from command line to 'None'
+[42.992s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'cmake_target' from command line to 'None'
+[42.992s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[42.992s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[42.993s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'cmake_clean_first' from command line to 'False'
+[42.993s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'cmake_force_configure' from command line to 'False'
+[42.993s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'ament_cmake_args' from command line to 'None'
+[42.993s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[42.993s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_ignition_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[42.993s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_ignition_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paul/create3_ws/build/irobot_create_ignition_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paul/create3_ws/install/irobot_create_ignition_sim', 'merge_install': False, 'path': '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_sim', 'symlink_install': False, 'test_result_base': None}
+[42.994s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[42.997s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[42.998s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox' with build type 'ament_cmake'
+[42.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox'
+[43.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[43.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[43.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[43.679s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_control' with build type 'ament_cmake'
+[43.679s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_control'
+[43.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[43.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[43.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_description' with build type 'ament_cmake'
+[43.687s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_description'
+[43.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[43.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[43.695s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins' with build type 'ament_cmake'
+[43.696s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins'
+[43.697s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[43.697s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[43.704s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/robot_gazebo_line'
+[43.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[43.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[43.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_control -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_control
+[44.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_toolbox
+[44.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/robot_gazebo_line': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/robot_gazebo_line -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/robot_gazebo_line
+[44.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_plugins
+[44.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_description -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_description
+[47.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_description -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_description
+[47.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_description -- -j12 -l12
+[47.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_control -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_control
+[47.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_control -- -j12 -l12
+[47.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_description -- -j12 -l12
+[47.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_description
+[47.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_control -- -j12 -l12
+[47.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_control
+[47.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_control)
+[47.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_control
+[48.150s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control' for CMake module files
+[48.152s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control' for CMake config files
+[48.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_control', 'cmake_prefix_path')
+[48.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.ps1'
+[48.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.dsv'
+[48.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.sh'
+[48.347s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/bin'
+[48.348s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/lib/pkgconfig/irobot_create_control.pc'
+[48.349s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/lib/python3.8/site-packages'
+[48.349s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/bin'
+[48.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.ps1'
+[48.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.dsv'
+[48.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.sh'
+[48.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.bash'
+[48.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.zsh'
+[49.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_control/share/colcon-core/packages/irobot_create_control)
+[49.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_description)
+[49.638s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description' for CMake module files
+[49.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_description
+[49.638s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description' for CMake config files
+[49.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_description', 'cmake_prefix_path')
+[49.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/hook/cmake_prefix_path.ps1'
+[49.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/hook/cmake_prefix_path.dsv'
+[49.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/hook/cmake_prefix_path.sh'
+[49.643s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/bin'
+[49.643s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/lib/pkgconfig/irobot_create_description.pc'
+[49.643s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/lib/python3.8/site-packages'
+[49.643s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/bin'
+[49.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.ps1'
+[49.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.dsv'
+[49.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.sh'
+[49.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.bash'
+[49.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.zsh'
+[49.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_description/share/colcon-core/packages/irobot_create_description)
+[49.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_control)
+[49.656s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control' for CMake module files
+[49.657s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control' for CMake config files
+[49.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_control', 'cmake_prefix_path')
+[49.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.ps1'
+[49.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.dsv'
+[49.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.sh'
+[49.660s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/bin'
+[49.660s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/lib/pkgconfig/irobot_create_control.pc'
+[49.660s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/lib/python3.8/site-packages'
+[49.660s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_control/bin'
+[49.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.ps1'
+[49.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.dsv'
+[49.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.sh'
+[49.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.bash'
+[49.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.zsh'
+[49.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_control/share/colcon-core/packages/irobot_create_control)
+[49.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_description)
+[49.670s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description' for CMake module files
+[49.670s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description' for CMake config files
+[49.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_description', 'cmake_prefix_path')
+[49.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/hook/cmake_prefix_path.ps1'
+[49.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/hook/cmake_prefix_path.dsv'
+[49.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/hook/cmake_prefix_path.sh'
+[49.673s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/bin'
+[49.673s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/lib/pkgconfig/irobot_create_description.pc'
+[49.673s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/lib/python3.8/site-packages'
+[49.673s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_description/bin'
+[49.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.ps1'
+[49.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.dsv'
+[49.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.sh'
+[49.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.bash'
+[49.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_description/share/irobot_create_description/package.zsh'
+[49.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_description/share/colcon-core/packages/irobot_create_description)
+[49.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_common_bringup' with build type 'ament_cmake'
+[49.682s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_common_bringup'
+[49.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[49.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[49.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_common_bringup': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_common_bringup -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_common_bringup
+[50.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_common_bringup' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_common_bringup -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_common_bringup
+[50.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_common_bringup': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_common_bringup -- -j12 -l12
+[50.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_common_bringup' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_common_bringup -- -j12 -l12
+[50.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_common_bringup': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_common_bringup
+[50.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_common_bringup)
+[50.713s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup' for CMake module files
+[50.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_common_bringup' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_common_bringup
+[50.714s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup' for CMake config files
+[50.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_common_bringup', 'cmake_prefix_path')
+[50.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/hook/cmake_prefix_path.ps1'
+[50.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/hook/cmake_prefix_path.dsv'
+[50.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/hook/cmake_prefix_path.sh'
+[50.751s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/bin'
+[50.752s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/lib/pkgconfig/irobot_create_common_bringup.pc'
+[50.753s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/lib/python3.8/site-packages'
+[50.753s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/bin'
+[50.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.ps1'
+[50.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.dsv'
+[50.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.sh'
+[50.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.bash'
+[50.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.zsh'
+[50.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_common_bringup/share/colcon-core/packages/irobot_create_common_bringup)
+[50.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_common_bringup)
+[50.835s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup' for CMake module files
+[50.836s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup' for CMake config files
+[50.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_common_bringup', 'cmake_prefix_path')
+[50.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/hook/cmake_prefix_path.ps1'
+[50.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/hook/cmake_prefix_path.dsv'
+[50.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/hook/cmake_prefix_path.sh'
+[50.842s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/bin'
+[50.842s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/lib/pkgconfig/irobot_create_common_bringup.pc'
+[50.842s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/lib/python3.8/site-packages'
+[50.843s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_common_bringup/bin'
+[50.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.ps1'
+[50.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.dsv'
+[50.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.sh'
+[50.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.bash'
+[50.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.zsh'
+[50.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_common_bringup/share/colcon-core/packages/irobot_create_common_bringup)
+[57.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_plugins
+[57.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_ignition_plugins -- -j12 -l12
+[57.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_ignition_plugins -- -j12 -l12
+[57.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_ignition_plugins
+[57.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_ignition_plugins)
+[57.444s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins' for CMake module files
+[57.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_ignition_plugins
+[57.448s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins' for CMake config files
+[57.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_ignition_plugins', 'cmake_prefix_path')
+[57.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/hook/cmake_prefix_path.ps1'
+[57.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/hook/cmake_prefix_path.dsv'
+[57.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/hook/cmake_prefix_path.sh'
+[57.455s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/bin'
+[57.456s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/lib/pkgconfig/irobot_create_ignition_plugins.pc'
+[57.456s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/lib/python3.8/site-packages'
+[57.457s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/bin'
+[57.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.ps1'
+[57.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.dsv'
+[57.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.sh'
+[57.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.bash'
+[57.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.zsh'
+[57.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/colcon-core/packages/irobot_create_ignition_plugins)
+[57.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_toolbox
+[57.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_toolbox -- -j12 -l12
+[57.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_ignition_plugins)
+[57.492s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins' for CMake module files
+[57.493s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins' for CMake config files
+[57.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_ignition_plugins', 'cmake_prefix_path')
+[57.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/hook/cmake_prefix_path.ps1'
+[57.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/hook/cmake_prefix_path.dsv'
+[57.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/hook/cmake_prefix_path.sh'
+[57.496s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/bin'
+[57.496s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/lib/pkgconfig/irobot_create_ignition_plugins.pc'
+[57.496s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/lib/python3.8/site-packages'
+[57.496s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_plugins/bin'
+[57.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.ps1'
+[57.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.dsv'
+[57.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.sh'
+[57.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.bash'
+[57.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.zsh'
+[57.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_ignition_plugins/share/colcon-core/packages/irobot_create_ignition_plugins)
+[57.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_toolbox -- -j12 -l12
+[57.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_toolbox
+[57.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_toolbox)
+[57.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_toolbox
+[57.824s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox' for CMake module files
+[57.827s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox' for CMake config files
+[57.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_toolbox', 'cmake_prefix_path')
+[57.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/cmake_prefix_path.ps1'
+[57.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/cmake_prefix_path.dsv'
+[57.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/cmake_prefix_path.sh'
+[57.838s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/lib'
+[57.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_toolbox', 'ld_library_path_lib')
+[57.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/ld_library_path_lib.ps1'
+[57.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/ld_library_path_lib.dsv'
+[57.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/ld_library_path_lib.sh'
+[57.846s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/bin'
+[57.846s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/lib/pkgconfig/irobot_create_toolbox.pc'
+[57.847s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/lib/python3.8/site-packages'
+[57.847s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/bin'
+[57.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.ps1'
+[57.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv'
+[57.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.sh'
+[57.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.bash'
+[57.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.zsh'
+[57.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_toolbox/share/colcon-core/packages/irobot_create_toolbox)
+[57.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_toolbox)
+[57.889s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox' for CMake module files
+[57.890s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox' for CMake config files
+[57.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_toolbox', 'cmake_prefix_path')
+[57.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/cmake_prefix_path.ps1'
+[57.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/cmake_prefix_path.dsv'
+[57.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/cmake_prefix_path.sh'
+[57.893s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/lib'
+[57.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_toolbox', 'ld_library_path_lib')
+[57.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/ld_library_path_lib.ps1'
+[57.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/ld_library_path_lib.dsv'
+[57.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/hook/ld_library_path_lib.sh'
+[57.895s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/bin'
+[57.896s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/lib/pkgconfig/irobot_create_toolbox.pc'
+[57.896s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/lib/python3.8/site-packages'
+[57.896s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_toolbox/bin'
+[57.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.ps1'
+[57.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv'
+[57.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.sh'
+[57.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.bash'
+[57.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.zsh'
+[57.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_toolbox/share/colcon-core/packages/irobot_create_toolbox)
+[57.903s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins' with build type 'ament_cmake'
+[57.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins'
+[57.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.912s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox' with build type 'ament_cmake'
+[57.913s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox'
+[57.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.922s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes' with build type 'ament_cmake'
+[57.922s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes'
+[57.924s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_gazebo_plugins': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_gazebo_plugins
+[57.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_toolbox': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_toolbox
+[57.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_nodes': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_common/irobot_create_nodes -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_nodes
+[64.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_toolbox
+[64.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_toolbox': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_ignition_toolbox -- -j12 -l12
+[64.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_ignition_toolbox -- -j12 -l12
+[64.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_toolbox': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_ignition_toolbox
+[64.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_ignition_toolbox)
+[64.632s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox' for CMake module files
+[64.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/irobot_create_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_ignition_toolbox
+[64.635s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox' for CMake config files
+[64.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_ignition_toolbox', 'cmake_prefix_path')
+[64.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/cmake_prefix_path.ps1'
+[64.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/cmake_prefix_path.dsv'
+[64.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/cmake_prefix_path.sh'
+[64.645s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib'
+[64.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_ignition_toolbox', 'ld_library_path_lib')
+[64.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/ld_library_path_lib.ps1'
+[64.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/ld_library_path_lib.dsv'
+[64.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/ld_library_path_lib.sh'
+[64.652s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/bin'
+[64.653s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib/pkgconfig/irobot_create_ignition_toolbox.pc'
+[64.653s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib/python3.8/site-packages'
+[64.654s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/bin'
+[64.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.ps1'
+[64.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.dsv'
+[64.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.sh'
+[64.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.bash'
+[64.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.zsh'
+[64.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/colcon-core/packages/irobot_create_ignition_toolbox)
+[64.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_ignition_toolbox)
+[64.734s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox' for CMake module files
+[64.734s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox' for CMake config files
+[64.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_ignition_toolbox', 'cmake_prefix_path')
+[64.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/cmake_prefix_path.ps1'
+[64.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/cmake_prefix_path.dsv'
+[64.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/cmake_prefix_path.sh'
+[64.738s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib'
+[64.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_ignition_toolbox', 'ld_library_path_lib')
+[64.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/ld_library_path_lib.ps1'
+[64.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/ld_library_path_lib.dsv'
+[64.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/hook/ld_library_path_lib.sh'
+[64.743s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/bin'
+[64.743s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib/pkgconfig/irobot_create_ignition_toolbox.pc'
+[64.743s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib/python3.8/site-packages'
+[64.743s] Level 1:colcon.colcon_core.environment:checking '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/bin'
+[64.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.ps1'
+[64.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.dsv'
+[64.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.sh'
+[64.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.bash'
+[64.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.zsh'
+[64.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paul/create3_ws/install/irobot_create_ignition_toolbox/share/colcon-core/packages/irobot_create_ignition_toolbox)
+[64.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup' with build type 'ament_cmake'
+[64.749s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup'
+[64.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[64.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[64.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paul/create3_ws/build/irobot_create_ignition_bringup': CMAKE_PREFIX_PATH=/home/paul/create3_ws/install/irobot_create_ignition_toolbox:/home/paul/create3_ws/install/irobot_create_common_bringup:/home/paul/create3_ws/install/irobot_create_toolbox:/home/paul/create3_ws/install/irobot_create_ignition_plugins:/home/paul/create3_ws/install/irobot_create_description:/home/paul/create3_ws/install/irobot_create_control:/home/paul/create3_ws/install/irobot_create_nodes:/home/paul/create3_ws/install/irobot_create_ignition_sim:/home/paul/create3_ws/install/irobot_create_ignition_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_sim:/home/paul/create3_ws/install/irobot_create_gazebo_bringup:/home/paul/create3_ws/install/irobot_create_gazebo_plugins:/opt/ros/galactic LD_LIBRARY_PATH=/home/paul/create3_ws/install/irobot_create_ignition_toolbox/lib:/home/paul/create3_ws/install/irobot_create_toolbox/lib:/home/paul/create3_ws/install/irobot_create_nodes/lib:/home/paul/create3_ws/install/irobot_create_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_bringup -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/irobot_create_ignition_bringup
+[64.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paul/create3_ws/build/robot_gazebo_line' returned '1': /usr/bin/cmake /home/paul/create3_ws/src/create3_sim/robot_gazebo_line -DCMAKE_INSTALL_PREFIX=/home/paul/create3_ws/install/robot_gazebo_line
+[70.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[70.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[70.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[70.160s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[70.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[70.623s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[70.623s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[70.953s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[70.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paul/create3_ws/install/local_setup.ps1'
+[71.112s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paul/create3_ws/install/_local_setup_util_ps1.py'
+[71.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paul/create3_ws/install/setup.ps1'
+[71.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paul/create3_ws/install/local_setup.sh'
+[71.168s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paul/create3_ws/install/_local_setup_util_sh.py'
+[71.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paul/create3_ws/install/setup.sh'
+[71.177s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paul/create3_ws/install/local_setup.bash'
+[71.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paul/create3_ws/install/setup.bash'
+[71.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paul/create3_ws/install/local_setup.zsh'
+[71.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paul/create3_ws/install/setup.zsh'

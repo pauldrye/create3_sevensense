@@ -1,0 +1,23 @@
+[10.343s] Invoking command in '/home/paul/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_control -- -j12 -l12
+[16.520s] Invoked command in '/home/paul/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/paul/create3_ws/build/irobot_create_control -- -j12 -l12
+[16.553s] Invoking command in '/home/paul/create3_ws/build/irobot_create_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_control
+[16.624s] -- Install configuration: ""
+[17.075s] -- Execute custom install script
+[17.080s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control//launch/include/control.py
+[17.082s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control//config/control.yaml
+[17.083s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/ament_index/resource_index/package_run_dependencies/irobot_create_control
+[17.084s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/ament_index/resource_index/parent_prefix_path/irobot_create_control
+[17.084s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.sh
+[17.085s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.dsv
+[17.085s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/path.sh
+[17.085s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/path.dsv
+[17.086s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.bash
+[17.086s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.sh
+[17.087s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.zsh
+[17.087s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.dsv
+[17.088s] -- Symlinking: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.dsv
+[17.098s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/ament_index/resource_index/packages/irobot_create_control
+[17.098s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig.cmake
+[17.098s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig-version.cmake
+[17.098s] -- Up-to-date symlink: /home/paul/create3_ws/install/irobot_create_control/share/irobot_create_control/package.xml
+[17.100s] Invoked command in '/home/paul/create3_ws/build/irobot_create_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/paul/create3_ws/build/irobot_create_control
